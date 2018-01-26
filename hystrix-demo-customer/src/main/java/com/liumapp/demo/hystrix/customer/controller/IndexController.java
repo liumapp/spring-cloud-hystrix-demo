@@ -1,4 +1,4 @@
-package com.liumapp.demo.ribbon.customer.controller;
+package com.liumapp.demo.hystrix.customer.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

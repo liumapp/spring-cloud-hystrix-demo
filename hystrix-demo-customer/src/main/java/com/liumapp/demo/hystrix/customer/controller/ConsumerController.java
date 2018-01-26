@@ -1,4 +1,4 @@
-package com.liumapp.demo.ribbon.customer.controller;
+package com.liumapp.demo.hystrix.customer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

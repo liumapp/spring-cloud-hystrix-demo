@@ -1,4 +1,4 @@
-package com.liumapp.demo.ribbon.customer;
+package com.liumapp.demo.hystrix.customer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
  * home-page:http://www.liumapp.com
  */
 @EnableDiscoveryClient
-@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.ribbon.customer"})
+@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.hystrix.customer"})
 public class Main {
 
     @Bean
