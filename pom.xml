@@ -35,7 +35,7 @@
 	</dependencyManagement>
 
 	<modules>
-		<!--<module>ribbon-demo-eureka</module>-->
+		<module>hystrix-demo-eureka</module>
 		<!--<module>ribbon-demo-client-a</module>-->
 		<!--<module>ribbon-demo-client-b</module>-->
 		<!--<module>ribbon-demo-customer</module>-->

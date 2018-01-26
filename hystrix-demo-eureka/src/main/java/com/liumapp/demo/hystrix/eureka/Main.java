@@ -1,4 +1,4 @@
-package com.liumapp.demo.ribbon.eureka;
+package com.liumapp.demo.hystrix.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
  * home-page:http://www.liumapp.com
  */
 @EnableEurekaServer
-@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.ribbon.eureka"})
+@SpringBootApplication(scanBasePackages = {"com.liumapp.demo.hystrix.eureka"})
 public class Main {
 
     public static void main(String[] args) {

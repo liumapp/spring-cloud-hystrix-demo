@@ -4,7 +4,7 @@
 
   <parent>
     <groupId>com.liumapp.demo.ribbon</groupId>
-    <artifactId>spring-cloud-hystrix-demo-demo</artifactId>
+    <artifactId>spring-cloud-hystrix-demo</artifactId>
     <version>v1.0.0</version>
   </parent>
 
