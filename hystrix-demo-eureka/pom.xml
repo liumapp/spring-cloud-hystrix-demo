@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.liumapp.demo.ribbon</groupId>
+    <groupId>com.liumapp.demo.hystrix</groupId>
     <artifactId>spring-cloud-hystrix-demo</artifactId>
     <version>v1.0.0</version>
   </parent>
 
-  <groupId>com.liumapp.demo.ribbon.server</groupId>
+  <groupId>com.liumapp.demo.hystrix.eureka</groupId>
   <artifactId>hystrix-demo-eureka</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
