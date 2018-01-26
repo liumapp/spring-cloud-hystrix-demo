@@ -9,7 +9,7 @@
 	</parent>
 
 	<groupId>com.liumapp.demo.ribbon</groupId>
-	<artifactId>spring-cloud-ribbon-demo</artifactId>
+	<artifactId>spring-cloud-hystrix-demo</artifactId>
 	<version>v1.0.0</version>
 	<packaging>pom</packaging>
 
@@ -35,9 +35,9 @@
 	</dependencyManagement>
 
 	<modules>
-		<module>ribbon-demo-eureka</module>
-		<module>ribbon-demo-client-a</module>
-		<module>ribbon-demo-client-b</module>
-		<module>ribbon-demo-customer</module>
+		<!--<module>ribbon-demo-eureka</module>-->
+		<!--<module>ribbon-demo-client-a</module>-->
+		<!--<module>ribbon-demo-client-b</module>-->
+		<!--<module>ribbon-demo-customer</module>-->
 	</modules>
 </project>
