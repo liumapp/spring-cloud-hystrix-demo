@@ -1,4 +1,4 @@
-package com.liumapp.demo.ribbon.client.a.controller;
+package com.liumapp.demo.hystrix.client.a.controller;
 
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
