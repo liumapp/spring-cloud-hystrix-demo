@@ -4,12 +4,12 @@
 
   <parent>
     <groupId>com.liumapp.demo.ribbon</groupId>
-    <artifactId>spring-cloud-ribbon-demo</artifactId>
+    <artifactId>spring-cloud-hystrix-demo</artifactId>
     <version>v1.0.0</version>
   </parent>
 
   <groupId>com.liumapp.demo.ribbon.client.b</groupId>
-  <artifactId>ribbon-demo-client-b</artifactId>
+  <artifactId>hystrix-demo-client-b</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
 
@@ -17,7 +17,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-  <name>ribbon-demo-client-b</name>
+  <name>hystrix-demo-client-b</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
