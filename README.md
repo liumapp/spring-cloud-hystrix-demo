@@ -22,4 +22,10 @@ Simple demo for Spring Cloud Hystrix
     
     * now , cancel client B's server (just simple kill it )
     
-    * keep refresh the page , you can find hystrix can find that client B have error until eureka remove B from the server's list . 
+    * keep refresh the page , you can find hystrix can find that client B have error until eureka remove B from the server's list .
+     
+    * now , let's open client B again .
+     
+    * keep refresh the page , because client a and client b's Thread will sleep some time in random .
+     
+    * so , when their sleep is bigger than 2s , hystrix will say there are problem .  
